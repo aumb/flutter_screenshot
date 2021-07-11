@@ -38,6 +38,8 @@ flutter:
         fileName: flutter_screenshot_web.dart
       macos:
         pluginClass: FlutterScreenshotPlugin
+      windows:
+        pluginClass: FlutterScreenshotPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
