@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -30,6 +32,11 @@ flutter:
         package: com.example.flutter_screenshot
         pluginClass: FlutterScreenshotPlugin
       ios:
+        pluginClass: FlutterScreenshotPlugin
+      web:
+        pluginClass: FlutterScreenshotPlugin
+        fileName: flutter_screenshot_web.dart
+      macos:
         pluginClass: FlutterScreenshotPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
