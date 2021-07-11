@@ -1,0 +1,22 @@
+PODS:
+  - flutter_screenshot (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - flutter_screenshot (from `Flutter/ephemeral/.symlinks/plugins/flutter_screenshot/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  flutter_screenshot:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_screenshot/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  flutter_screenshot: 94121bcef0da4d96738ac63eafccdbb86997d5fd
+  FlutterMacOS: 57701585bf7de1b3fc2bb61f6378d73bbdea8424
+
+PODFILE CHECKSUM: 6eac6b3292e5142cfc23bdeb71848a40ec51c14c
+
+COCOAPODS: 1.10.1
